@@ -1,0 +1,11 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background: #D7BA89;;
+  color: #335094;
+}
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
