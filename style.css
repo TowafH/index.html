@@ -3,9 +3,67 @@ html {
   width: 100%;
 }
 body{
-  background: #D7BA89;;
+  background: #e2d4bb;;
   color: #335094;
 }
+
+#heading{
+  text-align: center;
+}
+#name{
+  text-align: center;
+  font-size: 28px;
+}
+#occupation{
+  text-align: center;
+  font-size: 24px;
+}
+#avatar{
+  width: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+#school{
+  width: 200px;
+  z-index: 1;
+  position: absolute;
+  top: 18px;
+  left: 50px;
+}
+
+.banner{
+  background-color: #D7BA89;
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid #233c76;
+  box-shadow: 1px 3px 10px 1px #657395;
+  outline-offset: 1px;
+  outline: groove 2px #4d5e84 ;
+  text-transform: capitalize;
+  text-shadow: 1px 1px white;
+  font-family: Georgia;
+  height: 180px;
+  text-align: right;
+  font-style: italic;
+}
+.container{
+  border: 3px solid #233c76;
+  box-shadow: 1px 3px 10px 1px #657395;
+  outline-offset: 1px;
+  outline: groove 2px #4d5e84 ;
+  background-image: repeating-linear-gradient( #D7BA89, white, #D7BA89);
+  height: 2000px;
+  overflow: hidden;
+}
+
 p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#bio{
+  font-size: 20px;
+  text-indent: 10%;
 }
